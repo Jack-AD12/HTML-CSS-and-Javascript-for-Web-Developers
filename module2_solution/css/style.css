@@ -1,0 +1,72 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: cursive;
+}
+
+h1{
+  text-align: center;
+  margin-bottom: 30px;
+}
+span{
+  float: right;
+  width: 100px;
+  border: 1px solid black;
+  text-align: center;
+  font-weight: bold;
+}
+p{
+  padding-top: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.title1{
+  background-color: pink;
+}
+.title2{
+  background-color: red;
+  color: white;
+}
+.title3{
+  background-color: yellow;
+}
+
+.row{
+  width: 100%;
+}
+
+.contentbox{
+  background-color: grey;
+  border: 1px solid black;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+/* For large devices */
+@media (min-width: 992px) {
+  .col-lg-4{
+    float: left;
+    width: 33.33%;
+  }
+}
+/* For Medium Devices */
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6{
+    float: left;
+    width: 50%;
+  }
+  .col-md-12{
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+  }
+}
+/* For Medium Devices */
+@media (max-width: 767px) {
+  .col-sm-12{
+    float: left;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
