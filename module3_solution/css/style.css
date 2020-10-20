@@ -1,0 +1,39 @@
+body{
+	  font-family: "Comic Sans MS", cursive, sans-serif;
+		color: black;
+		box-sizing: border-box;
+	}
+h1{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.navbar{
+	border-radius: 0;
+	border: 5px solid black;
+	background-color: grey;
+}
+.navbar-brand{
+	font-size: 30px;
+}
+.navbar-toggle{
+	border: 2px solid black;
+}
+.icon-bar{
+	background-color: black;
+}
+button:focus {
+	border: 2px solid white;
+}
+.content{
+	background-color: grey;
+	padding: 15px;
+	margin: 20px;
+}
+.row{
+	margin: 20px;
+}
+.MenuItem{
+	border: 1px solid black;
+	color: black;
+	background-color: white;
+}
